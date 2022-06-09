@@ -27,7 +27,7 @@ void Board::readUserGridInfo(sf::RenderWindow& window)
     {
         for (int row = 0; row < userGridArray.size(); row++)
         {
-            if (userGridArray[line][row] == '@') //statek tu jest
+            if (userGridArray[line][row] == '@') //statek tu jest // + -> trafiony nie zatopiony
             {
                 p_x = row * size_tile + location_userGrid_X;
                 p_y = line * size_tile + location_userGrid_Y;
